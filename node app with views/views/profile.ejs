@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: "Open sans";
+            font-size: 3rem;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body style="background-color: skyblue;"">\
+    <h1>This is the profile page FYI</h1>
+    <%- include('partials/nav') %> 
+    <!-- the essence of partial views is to create something once without having to rewrite the code several times i.e you make changes once and they apply to all documents -->
+    <p><strong>You are viewing profile of <%= person %> </strong></p>
+    <ul>
+        <li>sex <%= data.sex %></li>
+        <li>Age: <%= data.age %></li>
+    </ul>
+</body>
+</html>

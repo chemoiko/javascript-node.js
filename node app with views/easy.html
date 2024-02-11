@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            /* font-size: 20px; */
+            background-color: rgb(234, 213, 236);
+            font-family: "open sans";
+
+        }
+        main{
+            /* padding: 20px; */
+            width: 90%;
+            margin: 0 auto;
+            max-width: 980px;
+        }
+        span{
+            color: gold;
+        }
+        img{
+            width: 100%;
+            height: 200px;
+        }
+        h1{
+            text-align: center;
+            font-size: 3rem;
+        }
+        h2{
+            font-size: 1.2rem;
+        }
+.sectionOne{
+   background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3em;
+
+}
+.sectionTwo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+@media (max-width: 800px){ /*media query to make columns stack on top of each other when page size small*/
+    .sectionOne,.sectionTwo,h1, img{
+        flex-direction: column;
+    }
+}
+.col1{
+    width: 25%;
+    /* border: 2px solid green; */
+    padding: 1em;
+}
+.col2{
+    width: 50%;
+    /* border: 2px solid green; */
+    padding: 1em;
+}
+.col3{
+    width: 25%;
+    border: 2px solid green;
+    background-color: purple;
+    /* text-align: cen; */
+    padding: 1em;
+}
+.col4{
+    width: 75%;
+    padding: 1em;
+}
+.col5{
+    width: 25%;
+    background-color: purple;
+    padding: 1em;
+}
+@media (max-width: 800px){
+    
+    .col1,.col2,.col3,.col4,.col5{
+        width: 100%;
+    }
+}
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Let's start <span>getting a little</span> more fancy!</h1>
+        <img src="images/5.jpg">
+        <section class="sectionOne">
+            <div class="col1">
+
+            <h2>Oolor sit</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum aliquid maxime asperiores nostrum, quia nisi non consequuntur sunt inventore quod, facilis expedita sapiente, esse cum minus? Fugiat iste architecto ea?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem dolores, laborum sed incidunt neque quae animi amet obcaecati quo, quos quibusdam veniam. Non ipsum vitae enim nesciunt consectetur! Ratione, aut.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad voluptates quod odio nihil iusto nemo impedit eveniet doloremque incidunt atque, hic repellendus debitis officia corporis totam ut inventore. Voluptatibus, ipsa.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab suscipit perspiciatis ipsam, quibusdam voluptas eos atque exercitationem consectetur quos quas, quae velit tempora aperiam quasi
+            </p>
+        </div>
+        <div class="col2">
+            <h2>Consectur adipiscing</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, nihil perspiciatis necessitatibus ullam molestiae tenetur a debitis aliquid porro qui, mollitia, nemo laborum? Quisquam, reiciendis nisi architecto cumque quia deserunt?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, aperiam tempora, hic sapiente voluptatibus molestias qui animi praesentium, unde suscipit ad error doloribus? Necessitatibus amet consectetur rerum culpa. Iusto, repudiandae!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque aliquam reprehenderit, ab a veritatis ipsam voluptatem voluptatum facilis error repellendus illo tempora omnis, molestiae sed quos vero aut. Quas, atque?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo optio molestiae dignissimos sint deserunt, exercitationem ex temporibus porro ullam, molestias nobis adipisci amet omnis! Illum vitae cupiditate odio commodi iste!
+            lorem
+
+            </p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iste repudiandae explicabo esse maiores voluptas ipsum ea magnam eveniet. Error expedita enim perspiciatis illum soluta magni nihil eum deserunt fuga.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni optio, fugit, molestias delectus blanditiis accusamus voluptatibus qui consequatur facilis reiciendis, impedit veritatis possimus omnis atque est exercitationem ipsa nemo ab.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, ipsam eveniet? Maiores id porro odit, delectus minima, numquam magni quis, recusandae veniam corrupti officiis dolorem voluptates in voluptatibus at iure?
+            </p>
+        </div>
+        <div class="col3">
+            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates repellat natus necessitatibus dolor sed. Minus fugiat rerum quisquam sapiente placeat reprehenderit rem. Nihil debitis, nemo est placeat corporis cupiditate consequuntur.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate expedita pariatur, delectus magnam iusto ipsam dignissimos fugiat voluptatum ab? Impedit fugiat voluptatibus voluptatem sint beatae mollitia quibusdam quidem, modi numquam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ducimus dolorem culpa beatae assumenda! Odit, laboriosam quae necessitatibus magnam magni eum doloremque blanditiis neque, nesciunt culpa repellendus sequi vero cupiditate.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, modi tenetur voluptate, nobis nihil animi consequatur quos enim itaque, dolores quaerat eius repellat nostrum nulla cumque iusto pariatur natus sapiente!
+            </p>
+        </div>
+        </section>
+        <section class="sectionTwo">
+            <div class="col4">
+                <h2>Deserunt mollit anim id est laborum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos deserunt quia error, veritatis nisi amet, vel expedita architecto nesciunt possimus earum aperiam repudiandae suscipit natus voluptatum tempore. Repellendus, culpa alias.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum beatae voluptates perferendis neque officia exercitationem delectus perspiciatis reiciendis, iste aliquid eius corrupti error ipsam fuga illum architecto, sed maiores!
+                </p>
+            </div>
+            <div class="col5">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit sit vel corporis, sequi doloremque excepturi quasi inventore officia animi. Aspernatur quaerat a pariatur veritatis inventore iste dignissimos laborum quas ducimus!</p>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
